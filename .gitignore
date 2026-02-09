@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+build/
+dist/
+coverage/
+.turbo/
+.vercel/
+
+# Runtime and logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env*.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.cer
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+
+# v0 runtime files (should only exist in preview, not in git)
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+instrumentation-client.js
+instrumentation-client.ts
